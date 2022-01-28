@@ -1,4 +1,4 @@
 # 在 Linux 系统上安装 Docker
 
-[https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
+<a href="https://docs.docker.com/engine/install/" target="_blank">https://docs.docker.com/engine/install/</a>
 
