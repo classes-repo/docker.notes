@@ -3,10 +3,8 @@ Dockerfile 介绍
 
 Docker can build images automatically by reading the instructions from a ``Dockerfile``. A Dockerfile is a ``text`` document that contains all the commands
 a user could call on the command line to assemble an image. Using docker build users can create an automated build that executes several command-line
-instructions in succession.
+instructions in succession [#f0]_
 
-
-https://docs.docker.com/engine/reference/builder/
 
 - Dockerfile是用于构建docker镜像的文件
 - Dockerfile里包含了构建镜像所需的“指令”
@@ -16,7 +14,7 @@ https://docs.docker.com/engine/reference/builder/
 举例：执行一个Python程序
 ---------------------------
 
-容器及进程，所以镜像就是一个运行这个进程所需要的环境。
+容器即进程，所以镜像就是一个运行这个进程所需要的环境。
 
 假如我们要在一台ubuntu 21.04上运行下面这个hello.py的Python程序
 
@@ -56,3 +54,7 @@ Dockerfile
     ADD hello.py /
     CMD ["python3", "/hello.py"]
 
+参考资料
+--------
+
+.. [#f0] https://docs.docker.com/engine/reference/builder/

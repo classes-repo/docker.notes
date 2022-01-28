@@ -14,7 +14,7 @@ docker build
 范例
 ---------------------
 
-Build with PATH
+Build with PATH [#f0]_
 ****************
 
 .. code-block:: bash
@@ -55,3 +55,7 @@ Build with -
 
     docker build - < context.tar.gz
 
+参考资料
+--------
+
+.. [#f0] https://docs.docker.com/engine/reference/builder/#usage

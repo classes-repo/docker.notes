@@ -8,7 +8,7 @@ image镜像
 - Docker image是一个 ``read-only`` 文件
 - 这个文件包含文件系统，源码，库文件，依赖，工具等一些运行application所需要的文件
 - 可以理解成一个模板
-- docker image具有分层的概念
+- docker image具有分层的概念 [#f0]_
 
 
 container容器
@@ -21,8 +21,8 @@ container容器
 .. image:: ../_static/container-quickstart/container-layers.png
     :alt: docker-image-vs-container
 
-docker image的获取
-----------------------
 
-- 自己制作
-- 从registry拉取（比如docker hub）
+参考资料
+--------
+
+.. [#f0] https://docs.docker.com/storage/storagedriver/#images-and-layers
