@@ -1,9 +1,7 @@
-使用 buildx 构建多架构镜像
+使用 buildx 构建多架构镜像 [#f0]_
 ============================
 
 Windows和Mac的桌面版Docker自带buildx命令，但是Linux环境下的Docker需要自行安装buildx （https://github.com/docker/buildx）
-
-https://docs.docker.com/buildx/working-with-buildx/
 
 
 登录dockerhub
@@ -67,3 +65,8 @@ Dockerfile
      => [auth] classes/test:pull,push token for registry-1.docker.io                                                                                                       0.0s
      => [auth] classes/test:pull,push token for registry-1.docker.io                                                                                                       0.0s
      => [auth] classes/test:pull,push library/ubuntu:pull token for registry-1.docker.io                                                                                   0.0s
+
+参考资料
+--------
+
+.. [#f0] https://docs.docker.com/buildx/working-with-buildx/#overview

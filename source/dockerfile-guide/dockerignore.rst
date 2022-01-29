@@ -113,4 +113,7 @@ Docker是client-server架构，理论上Client和Server可以不在一台机器�
 参考资料
 --------
 
-.. [#f0] https://k21academy.com/docker-kubernetes/docker-vs-virtual-machine/
+.. [#f0] 参考资料
+--------
+
+.. [#f0] https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#understand-build-context

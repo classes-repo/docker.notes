@@ -1,7 +1,7 @@
 docker build
 ====================
 
-说明
+说明 [#f0]_
 ---------------------
 
 .. code-block:: bash
@@ -14,7 +14,7 @@ docker build
 范例
 ---------------------
 
-Build with PATH [#f0]_
+Build with PATH
 ****************
 
 .. code-block:: bash
